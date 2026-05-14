@@ -1,0 +1,71 @@
+===== docker ps -a =====
+CONTAINER ID        IMAGE                    COMMAND                  CREATED              STATUS                          PORTS               NAMES
+c69913f7aed7        valorant-agent-advisor   "python app.py"          About a minute ago   Exited (0) About a minute ago                       samplerunning
+5a0fc73f63a5        726365a45995             "/bin/sh -c 'pip ins…"   37 minutes ago       Exited (2) 37 minutes ago                           pensive_hugle
+
+===== logs del contenedor =====
+======================================
+      VALORANT AGENT ADVISOR
+======================================
+Esta herramienta permite consultar informacion de un agente de Valorant.
+
+Agentes disponibles:
+- Astra
+- Breach
+- Brimstone
+- Chamber
+- Clove
+- Cypher
+- Deadlock
+- Fade
+- Gekko
+- Harbor
+- Iso
+- Jett
+- KAY/O
+- Killjoy
+- Miks
+- Neon
+- Omen
+- Phoenix
+- Raze
+- Reyna
+- Sage
+- Skye
+- Sova
+- Tejo
+- Veto
+- Viper
+- Vyse
+- Waylay
+- Yoru
+
+Agente solicitado por variable de entorno: Gekko
+
+======================================
+      RESULTADO DE LA CONSULTA
+======================================
+Nombre: Gekko
+Rol: Iniciador
+Nombre tecnico en API: Aggrobot
+Descripcion: Gekko, de Los Ángeles, lidera una pequeña pandilla de calamitosas criaturas. Sus colegas toman la delantera para dispersar a los enemigos, mientras que Gekko los persigue para luego reagruparse y repetir el proceso.
+
+Habilidades:
+--------------------------------------
+Habilidad: Wingman
+Tipo: Ability1
+Descripcion: EQUIPA a Wingman. DISPARA para mandarlo hacia delante en busca de enemigos. Wingman libera una explosión aturdidora en dirección al primero que ve. Utiliza el DISPARO ALTERNATIVO mientras apuntas a una zona de la Spike o a una Spike colocada para que la coloque o la desarme. Para colocarla, Gekko debe tenerla en su inventario. Cuando Wingman desaparece, vuelve a su estado en reposo. INTERACTÚA para recuperar el glóbulo y obtener otra carga tras un breve enfriamiento.
+--------------------------------------
+Habilidad: Dizzy
+Tipo: Ability2
+Descripcion: EQUIPA a Dizzy. DISPARA para lanzar a Dizzy volando hacia delante. Dizzy carga y libera explosiones de plasma hacia los enemigos en su campo de visión. El plasma ciega a los enemigos alcanzados. Cuando Dizzy desaparece, vuelve a su estado de glóbulo en reposo. INTERACTÚA para recuperar el glóbulo y obtener otra carga de Dizzy tras un breve enfriamiento.
+--------------------------------------
+Habilidad: Mosh
+Tipo: Grenade
+Descripcion: EQUIPA a Mosh. DISPARA para lanzar a Mosh como una granada. Utiliza el DISPARO ALTERNATIVO para tirarlo. Al caer, Mosh se divide en varias copias en un área grande, que inflige una pequeña cantidad de daño prolongado y, tras un breve lapso, explota. INTERACTÚA para recuperar el glóbulo y obtener otra carga de Mosh tras un breve enfriamiento.
+--------------------------------------
+Habilidad: Thrash
+Tipo: Ultimate
+Descripcion: EQUIPA a Thrash. DISPARA para vincular tu mente con la de Thrash y manejarla a través del territorio enemigo. ACTÍVALA para embestir hacia delante y explotar, lo que detendrá a cualquier jugador en un pequeño radio. Cuando Thrash desaparece, vuelve a su estado de glóbulo en reposo. INTERACTÚA para recuperar el glóbulo y obtener otra carga de Thrash tras un breve enfriamiento. Thrash se puede recuperar una vez.
+--------------------------------------
+Consulta finalizada correctamente.
